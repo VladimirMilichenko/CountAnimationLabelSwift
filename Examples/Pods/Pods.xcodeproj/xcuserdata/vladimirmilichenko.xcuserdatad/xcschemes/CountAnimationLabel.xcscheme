@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '79DEB5CC1A2EA80174E8C7FC'
-               BlueprintName = 'Pods-TestLabelExtension'
+               BlueprintIdentifier = 'A70CBE9C4FC98A25A497D550'
+               BlueprintName = 'CountAnimationLabel'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods_TestLabelExtension.framework'>
+               BuildableName = 'CountAnimationLabel.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

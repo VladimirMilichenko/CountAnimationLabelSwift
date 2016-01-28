@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0CB22EF06FC1E883C78FEFE6BB6A561B /* Pods-TestLabelExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB106BA66FEFC06CEBF3BCC982977B0 /* Pods-TestLabelExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D83D74BDF044EC0030B237FE6F7EFF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		2916F341623EA62EC2A08997B1A9ACF5 /* CountAnimationLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0629CC8CFC52F843B742A000B9C2A2 /* CountAnimationLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42A66AED7F554CF3C659E91CECAD3729 /* CountAnimationLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A00C022EFC1EFB14DEE663C510B518A /* CountAnimationLabel-dummy.m */; };
 		5CC3895EBEF9C5CF67B99C918BC9D7DF /* Pods-TestLabelExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE8C92078AAADF37D6B50500951776D /* Pods-TestLabelExtension-dummy.m */; };
-		C8C8839B4F7A8C618E8D441A5C1B459D /* UILabel+CountAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E17784376718C6FB05C0342FD45CD78 /* UILabel+CountAnimation.swift */; };
-		E0895122958707DC7F601366D180516E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BA47677CAC6281C3D50DB859167C416C /* CountAnimationLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A80BA9E506BCB50EA5C59E8A7286C3D8 /* CountAnimationLabel-dummy.m */; };
+		C84A08AE42558114BB998AAA5EC311B7 /* CountAnimationLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67ED57025B57280F42D370AD588908C9 /* CountAnimationLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9748A7A69F89D819CB72241202019B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		E0895122958707DC7F601366D180516E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		EF845839592DD708736E26E876AF3FC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		FB41A4C0D3366050DC8211DA7E40712A /* UILabel+CountAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719BCB613A1538A16CE2B788F9598AAE /* UILabel+CountAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,26 +22,27 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4BB6076E4EFFCD0211B142AAA508AAE1;
+			remoteGlobalIDString = 21590880EE7A9ED00A8E6AA2C83DAD74;
 			remoteInfo = CountAnimationLabel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07B9E97A89DDC9925E9AA66F3F3BD99D /* CountAnimationLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CountAnimationLabel.modulemap; sourceTree = "<group>"; };
 		10CA9C5FE6B49F5A2459965736B79DC7 /* Pods-TestLabelExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestLabelExtension-acknowledgements.plist"; sourceTree = "<group>"; };
-		139AE375028E4257EF8EEF134552EC79 /* CountAnimationLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountAnimationLabel.xcconfig; sourceTree = "<group>"; };
-		1E17784376718C6FB05C0342FD45CD78 /* UILabel+CountAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+CountAnimation.swift"; sourceTree = "<group>"; };
 		2574AABDC8CE6FDABCF9B9CDC742057B /* Pods-TestLabelExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLabelExtension.release.xcconfig"; sourceTree = "<group>"; };
 		2BB106BA66FEFC06CEBF3BCC982977B0 /* Pods-TestLabelExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestLabelExtension-umbrella.h"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4B95E7DEB9A20CE75DA68D11BB9B14A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D0629CC8CFC52F843B742A000B9C2A2 /* CountAnimationLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountAnimationLabel-umbrella.h"; sourceTree = "<group>"; };
+		4D6513D577B741E7EDD144AF1A3B74AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636835D6852ABFE2AE5BB85C0D66F7AA /* CountAnimationLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountAnimationLabel.xcconfig; sourceTree = "<group>"; };
+		67ED57025B57280F42D370AD588908C9 /* CountAnimationLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountAnimationLabel-umbrella.h"; sourceTree = "<group>"; };
+		6CCF3742902355B32C5D2F5FF88B0E6E /* CountAnimationLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountAnimationLabel-prefix.pch"; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6FB3D86BC536D188564373B04A8A0BA9 /* Pods_TestLabelExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLabelExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DCD42EB093F080B30EC39922B282F7C /* CountAnimationLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountAnimationLabel-prefix.pch"; sourceTree = "<group>"; };
-		8A00C022EFC1EFB14DEE663C510B518A /* CountAnimationLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountAnimationLabel-dummy.m"; sourceTree = "<group>"; };
-		9AF91EADA2F04F00463CABBDD7409980 /* CountAnimationLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CountAnimationLabel.modulemap; sourceTree = "<group>"; };
+		719BCB613A1538A16CE2B788F9598AAE /* UILabel+CountAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+CountAnimation.swift"; path = "CountAnimationLabel/UILabel+CountAnimation.swift"; sourceTree = "<group>"; };
+		A80BA9E506BCB50EA5C59E8A7286C3D8 /* CountAnimationLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountAnimationLabel-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C281936A9DC543169F20073096697416 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C44C54696DCE690A73F237E63F63D3F2 /* CountAnimationLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CountAnimationLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A5E21C10E0691E6356432E22263F38 /* Pods-TestLabelExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TestLabelExtension.modulemap"; sourceTree = "<group>"; };
 		CACAA67F17E34244EABCD8FC3C77CA8E /* Pods-TestLabelExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestLabelExtension.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,17 +61,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE58AB1B2FFB56940C42B9319E2C40C0 /* Frameworks */ = {
+		D17C6826B49F17A20CEF0D393C49C3C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D83D74BDF044EC0030B237FE6F7EFF3 /* Foundation.framework in Frameworks */,
+				EF845839592DD708736E26E876AF3FC0 /* Foundation.framework in Frameworks */,
+				C9748A7A69F89D819CB72241202019B0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		2465CF1CCF6ADFD0F627A794AED1BED9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,45 +99,45 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4D28CE166822DFE814C91A9CE5BC0AB5 /* Support Files */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9AF91EADA2F04F00463CABBDD7409980 /* CountAnimationLabel.modulemap */,
-				139AE375028E4257EF8EEF134552EC79 /* CountAnimationLabel.xcconfig */,
-				8A00C022EFC1EFB14DEE663C510B518A /* CountAnimationLabel-dummy.m */,
-				7DCD42EB093F080B30EC39922B282F7C /* CountAnimationLabel-prefix.pch */,
-				6D0629CC8CFC52F843B742A000B9C2A2 /* CountAnimationLabel-umbrella.h */,
-				C281936A9DC543169F20073096697416 /* Info.plist */,
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
 			);
-			name = "Support Files";
-			path = "Examples/Pods/Target Support Files/CountAnimationLabel";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D695B325886FD8AE56AE27DD1487F31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3DC5E66A85E9ADC1B850877036A53BD /* CountAnimationLabel */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				A188DAD6A5823879E150EC94BFDE317A /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5D695B325886FD8AE56AE27DD1487F31 /* Pods */,
 				2465CF1CCF6ADFD0F627A794AED1BED9 /* Products */,
 				3E09D9FF64FE85FEA608A164664FFEF8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A188DAD6A5823879E150EC94BFDE317A /* Development Pods */ = {
+		986BB82F60E315EFE644D9386F9B164C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E84BD55B5A98605ECBFF0B1B70F4F7B0 /* CountAnimationLabel */,
+				07B9E97A89DDC9925E9AA66F3F3BD99D /* CountAnimationLabel.modulemap */,
+				636835D6852ABFE2AE5BB85C0D66F7AA /* CountAnimationLabel.xcconfig */,
+				A80BA9E506BCB50EA5C59E8A7286C3D8 /* CountAnimationLabel-dummy.m */,
+				6CCF3742902355B32C5D2F5FF88B0E6E /* CountAnimationLabel-prefix.pch */,
+				67ED57025B57280F42D370AD588908C9 /* CountAnimationLabel-umbrella.h */,
+				4D6513D577B741E7EDD144AF1A3B74AD /* Info.plist */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B1773FCFF1441641B7C790917DF541EC /* CountAnimationLabel */ = {
-			isa = PBXGroup;
-			children = (
-				1E17784376718C6FB05C0342FD45CD78 /* UILabel+CountAnimation.swift */,
-			);
-			path = CountAnimationLabel;
+			name = "Support Files";
+			path = "../Target Support Files/CountAnimationLabel";
 			sourceTree = "<group>";
 		};
 		B64FF348AB7C72133098A30E98CFD653 /* Pods-TestLabelExtension */ = {
@@ -146,40 +158,23 @@
 			path = "Target Support Files/Pods-TestLabelExtension";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		E3DC5E66A85E9ADC1B850877036A53BD /* CountAnimationLabel */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				719BCB613A1538A16CE2B788F9598AAE /* UILabel+CountAnimation.swift */,
+				986BB82F60E315EFE644D9386F9B164C /* Support Files */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E84BD55B5A98605ECBFF0B1B70F4F7B0 /* CountAnimationLabel */ = {
-			isa = PBXGroup;
-			children = (
-				B1773FCFF1441641B7C790917DF541EC /* CountAnimationLabel */,
-				4D28CE166822DFE814C91A9CE5BC0AB5 /* Support Files */,
-			);
-			name = CountAnimationLabel;
-			path = ../..;
+			path = CountAnimationLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0882C377E0565FC628BC6E5596E654E3 /* Headers */ = {
+		305B197FA8FF5126B7455D5402292E0E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2916F341623EA62EC2A08997B1A9ACF5 /* CountAnimationLabel-umbrella.h in Headers */,
+				C84A08AE42558114BB998AAA5EC311B7 /* CountAnimationLabel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +189,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4BB6076E4EFFCD0211B142AAA508AAE1 /* CountAnimationLabel */ = {
+		21590880EE7A9ED00A8E6AA2C83DAD74 /* CountAnimationLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 105B0810E596C0D0EA479D1110402832 /* Build configuration list for PBXNativeTarget "CountAnimationLabel" */;
+			buildConfigurationList = 3F8D075420362CC8B52E1BEBABC73E75 /* Build configuration list for PBXNativeTarget "CountAnimationLabel" */;
 			buildPhases = (
-				FA11F9152D16A1CA0ED9310DF203B09E /* Sources */,
-				CE58AB1B2FFB56940C42B9319E2C40C0 /* Frameworks */,
-				0882C377E0565FC628BC6E5596E654E3 /* Headers */,
+				E1B2691B37E7C3E6840FBF5215E941E3 /* Sources */,
+				D17C6826B49F17A20CEF0D393C49C3C1 /* Frameworks */,
+				305B197FA8FF5126B7455D5402292E0E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -250,7 +245,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4BB6076E4EFFCD0211B142AAA508AAE1 /* CountAnimationLabel */,
+				21590880EE7A9ED00A8E6AA2C83DAD74 /* CountAnimationLabel */,
 				D07A678B1A3AB7042949AEF80B5EA57C /* Pods-TestLabelExtension */,
 			);
 		};
@@ -265,12 +260,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA11F9152D16A1CA0ED9310DF203B09E /* Sources */ = {
+		E1B2691B37E7C3E6840FBF5215E941E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42A66AED7F554CF3C659E91CECAD3729 /* CountAnimationLabel-dummy.m in Sources */,
-				C8C8839B4F7A8C618E8D441A5C1B459D /* UILabel+CountAnimation.swift in Sources */,
+				BA47677CAC6281C3D50DB859167C416C /* CountAnimationLabel-dummy.m in Sources */,
+				FB41A4C0D3366050DC8211DA7E40712A /* UILabel+CountAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +275,7 @@
 		4A8A18C6CFD6DF63FC9E73A660C9B17C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CountAnimationLabel;
-			target = 4BB6076E4EFFCD0211B142AAA508AAE1 /* CountAnimationLabel */;
+			target = 21590880EE7A9ED00A8E6AA2C83DAD74 /* CountAnimationLabel */;
 			targetProxy = 1895574851193BDA9D674EE2F278612F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -347,9 +342,9 @@
 			};
 			name = Release;
 		};
-		A5A047380DB213348449FFD08E4710DD /* Debug */ = {
+		A059AA69D1DE3D693F82E65671EB2230 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 139AE375028E4257EF8EEF134552EC79 /* CountAnimationLabel.xcconfig */;
+			baseConfigurationReference = 636835D6852ABFE2AE5BB85C0D66F7AA /* CountAnimationLabel.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -414,33 +409,6 @@
 			};
 			name = Debug;
 		};
-		D7EF9010E8AEA10C44F66ED118FFF8EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 139AE375028E4257EF8EEF134552EC79 /* CountAnimationLabel.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CountAnimationLabel/CountAnimationLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CountAnimationLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CountAnimationLabel/CountAnimationLabel.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CountAnimationLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -475,23 +443,50 @@
 			};
 			name = Release;
 		};
+		FFE37909F8DE05CACA3980A3588279C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636835D6852ABFE2AE5BB85C0D66F7AA /* CountAnimationLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CountAnimationLabel/CountAnimationLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountAnimationLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CountAnimationLabel/CountAnimationLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CountAnimationLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		105B0810E596C0D0EA479D1110402832 /* Build configuration list for PBXNativeTarget "CountAnimationLabel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A5A047380DB213348449FFD08E4710DD /* Debug */,
-				D7EF9010E8AEA10C44F66ED118FFF8EA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
 				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8D075420362CC8B52E1BEBABC73E75 /* Build configuration list for PBXNativeTarget "CountAnimationLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A059AA69D1DE3D693F82E65671EB2230 /* Debug */,
+				FFE37909F8DE05CACA3980A3588279C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
