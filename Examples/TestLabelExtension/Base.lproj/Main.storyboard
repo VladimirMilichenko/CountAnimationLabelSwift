@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestLabelExtension" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKj-PZ-PTs">
+                                <rect key="frame" x="20" y="290" width="560" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="0CF-ty-4fa"/>
+                                    <constraint firstAttribute="width" constant="560" id="28A-6f-BOV"/>
+                                    <constraint firstAttribute="height" constant="21" id="if5-YX-l9M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="28A-6f-BOV"/>
+                                        <exclude reference="if5-YX-l9M"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPD-o2-IMg">
+                                <rect key="frame" x="257" y="331" width="86" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cK1-mx-vLQ"/>
+                                    <constraint firstAttribute="width" constant="86" id="joi-up-NrA"/>
+                                </constraints>
+                                <state key="normal" title="Add Count"/>
+                                <connections>
+                                    <action selector="addCountButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2AT-EC-xWu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iPD-o2-IMg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2MX-Pd-8rz"/>
+                            <constraint firstItem="iPD-o2-IMg" firstAttribute="top" secondItem="rKj-PZ-PTs" secondAttribute="bottom" constant="20" id="7bw-QB-cZF"/>
+                            <constraint firstItem="rKj-PZ-PTs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9if-mM-fdo"/>
+                            <constraint firstItem="rKj-PZ-PTs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="270" id="FmD-7b-qmP"/>
+                            <constraint firstItem="rKj-PZ-PTs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="JDu-Au-ukp"/>
+                            <constraint firstAttribute="trailing" secondItem="rKj-PZ-PTs" secondAttribute="trailing" constant="20" id="TdK-gy-fi6"/>
+                            <constraint firstItem="rKj-PZ-PTs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bCJ-wL-CkK"/>
+                            <constraint firstItem="rKj-PZ-PTs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oGS-RO-Esf"/>
+                            <constraint firstItem="rKj-PZ-PTs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qtO-ow-r0i"/>
+                            <constraint firstItem="iPD-o2-IMg" firstAttribute="top" secondItem="rKj-PZ-PTs" secondAttribute="bottom" constant="20" id="uyw-bQ-fcF"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9if-mM-fdo"/>
+                                <exclude reference="bCJ-wL-CkK"/>
+                                <exclude reference="oGS-RO-Esf"/>
+                                <exclude reference="qtO-ow-r0i"/>
+                                <exclude reference="uyw-bQ-fcF"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="testLabel" destination="rKj-PZ-PTs" id="pl5-dh-fYj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="435"/>
+        </scene>
+    </scenes>
+</document>

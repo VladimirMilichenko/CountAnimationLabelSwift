@@ -1,0 +1,14 @@
+PODS:
+  - CountAnimationLabel (1.0.0)
+
+DEPENDENCIES:
+  - CountAnimationLabel (from `../`)
+
+EXTERNAL SOURCES:
+  CountAnimationLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CountAnimationLabel: 76327886650fb5aa668ad0c74e0811688d316550
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module CountAnimationLabel {
+  umbrella header "CountAnimationLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

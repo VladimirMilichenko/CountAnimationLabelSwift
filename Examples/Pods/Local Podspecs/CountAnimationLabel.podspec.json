@@ -1,0 +1,24 @@
+{
+  "name": "CountAnimationLabel",
+  "version": "1.0.0",
+  "summary": "Extension for UILabel which provides count animation",
+  "description": "",
+  "homepage": "http://EXAMPLE/CountAnimationLabel",
+  "license": "MIT (example)",
+  "authors": {
+    "Vladimir Milichenko": "kventvova@gmail.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "http://EXAMPLE/CountAnimationLabel.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "CountAnimationLabel/*.swift"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "requires_arc": true
+}
